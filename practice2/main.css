@@ -1,0 +1,399 @@
+*{margin: 0;padding: 0}
+body{
+
+}
+nav{width: 100%;display: block; }
+nav ul{width: 100%;
+   background: darkblue;
+   float:left;
+   text-align: center;
+   margin:auto;
+   }
+nav li{
+  list-style: none;
+  float:left;
+  font-size: 1em;
+  margin: 5px 13px;
+  padding: 5px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  }
+nav a{
+  text-decoration: none;
+  color: white;
+}
+nav a:hover{
+  color: orange;
+}
+hr{
+  height:1px;
+  border:none;
+  border-top:1px solid rgba(192,192,192,0.8);
+  width: 86%;
+  margin: auto;
+}
+.left{
+  margin-left: 25%;
+}
+.center{
+  margin: 0 auto;
+}
+.sep{
+  margin:9px 0;
+  float:left;
+  color: white;
+}
+#chinese{
+  float:right;
+  margin: 5px 3px;
+
+}
+#english{
+  float:right;
+  margin: 5px 3px;
+  margin-right:25%;
+}
+.sep2{
+  margin:9px 0;
+  float:right;
+  color: white;
+}
+#page1{
+  width:100%;
+  height:450px;
+  background: gray;
+  background-image: url(images/bg.jpg);
+
+}
+#head{
+  width: 50%;
+  height: auto;
+  min-width:960px;
+  margin: 0 auto;
+}
+#slogan{
+  float:left;
+  margin: 20px 0 20px 0;
+}
+.search{
+  float: right;
+  width: 160px;
+  height:20px;
+  margin: 1px 10px 0 0;
+  border: none;
+}
+#btn1{
+  height:23px;
+  width:35px;
+  margin: 0px;
+  color: white;
+  background: orange;
+}
+#form{
+  height:20px;
+  width: 220px;
+  background: white;
+  padding: 6px;
+  border: none;
+  float: right;
+  margin: 40px 0 20px 0;
+  border-radius: 6px;
+}
+#placeholder{
+  width:1000px;
+  height:100px;
+  margin: 0 auto;
+
+}
+#photosroll{
+  width:50%;
+  min-width:960px;
+  height:350px;
+  min-height: 350px;
+  margin: 0 auto;
+  background: white;
+  border: solid 0px;
+}
+#nav1{
+     width: 100%;
+     float:left;
+     text-align: center;
+     margin:auto;
+
+}
+.nav2{
+  list-style: none;
+  float:left;
+  margin: 5px 1.1%;
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 1em;
+  color: black;
+}
+.nav2 a:hover{
+  color: orange;
+}
+.nav2 a{
+  text-decoration: none;
+  color: black;
+}
+#left1{
+margin-left: 3%;
+}
+#pictures{
+  width: 100%;
+  margin:9px ;
+  margin-top:40px;
+  min-width:960px;
+
+}
+.fadein{
+  display: block;
+}
+.fadeout{
+display: none;
+}
+#page2{
+  width:50%;
+  min-width:960px;
+  margin: 0 auto;
+  height:500px;
+}
+.box{
+  width: 35%;
+  height:45%;
+  margin: 40px 15px 0 0;
+  float: left;
+}
+.box1{
+  width: 35%;
+  height:30%;
+  margin: 40px 15px 0 0;
+  float: left;
+}
+.box3{
+  width: 25%;
+  height:90%;
+  background:rgba(192,192,192,0.4);
+  margin: 40px 15px 0 0;
+  float: right;
+}
+#box4{
+  background: white;
+}
+
+.title{
+  width: 100%;
+  height:25px;
+  font-size: 15px;
+  padding: 6px 0px 0px 0px;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(to right,firebrick,gainsboro);
+}
+.titleName{
+  margin-right: 40px;
+  list-style: none;
+  float: left;
+  padding: 4px 10px;
+
+}
+.titleName a{
+  text-decoration: none;
+  color: white;
+}
+.titleName a:hover{
+  padding: 5px 10px;
+   color: black;
+   background: white;
+}
+.place{
+  width: 10px;
+}
+#newsView{
+  font-size: 12px;
+  overflow-x: visible;
+  line-height:150%;
+  list-style: none;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.classPic{
+  width: 150px;
+  height:110px;
+  margin: 10px 0;
+
+}
+.classNews{
+  width: 150px;
+  height: 110px;
+  margin: 10px 10px;
+  background: white;
+  float: right;
+  overflow:hidden;
+  font-size: 12px;
+  line-height: 180%;
+}
+#nav3{
+  list-style:none;
+}
+#nav3 a{
+  text-decoration: none;
+  color: black;
+}
+#nav3 a:hover{
+  color: orange;
+}
+.childNav{
+  margin:  10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.lead{
+  float: right;
+  margin-right: 10px;
+  font-weight: bold;
+  color: gray;
+}
+#placehold{
+width:100%;
+height:10px;
+}
+#nav4{
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+
+}
+.btn2{
+  width: 30%;
+  padding: 5px 15px;
+  margin: 2px ;
+  float: left;
+
+  margin-left: 15px;
+  color: white;
+}
+.btn3{
+  width: 30%;
+  padding: 5px 15px;
+  margin: 2px ;
+  float: left;
+  color: white;
+
+}
+#pictureHolder{
+  width: 88%;
+  height:20%;
+  margin: 4px 6%;
+}
+#news1{
+  width: 100%;
+  font-size: 12px;
+  overflow-x: visible;
+  line-height:160%;
+  list-style: none;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+    overflow:hidden;
+
+}
+#news2{
+    width: 100%;
+  font-size: 12px;
+  overflow-x: visible;
+  line-height:160%;
+  list-style: none;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+#news3{
+    width: 100%;
+  font-size: 12px;
+  overflow-x: visible;
+  line-height:160%;
+  list-style: none;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+#page3{
+  width: 100%;
+  height:150px;
+  background: rgba(192,192,192,0.4);
+}
+#footer{
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+}
+#friendLink{
+  list-style: none;
+  float:left;
+}
+.nav5{
+  font-size: 13px;
+  float: left;
+  margin: 20px 15px;
+}
+.sep3{
+    margin:15px 0;
+    float:left;
+}
+.footer{
+  margin:10px 20px;
+  font-size: 13px;
+}
+#link{
+  float:right;
+  margin: 50px 20px;
+}
+#rightplace{
+  margin-right: 10px;
+}
+
+
+/*下拉菜单效果实现*/
+
+.drop-down-content{
+  padding: 0;
+  opacity: 0.3;
+  height: 0;
+  overflow: hidden;
+  transition: all 2s ease;
+  list-style: none;
+  position: absolute;
+}
+.nav2:hover .drop-down-content{
+  height:auto;
+  opacity: 1;
+}
+.drop-down-content li{
+
+  text-align: left;
+  padding: 8px 10px;
+  width: 130px;
+  background:white;
+  font-size: 13px;
+
+}
+
+.hr{
+  width:90%;
+  margin: 0 auto;
+  color: black;
+  opacity: 0;
+}
