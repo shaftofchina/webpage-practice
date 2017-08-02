@@ -1,1 +1,1 @@
-# atatic-webpage-practice of css3 and html5
+#static-webpage-practice of css3 and html5
